@@ -47,7 +47,7 @@
                 })
             },
             async fetch(){
-                const res = await this.$http.get(`rest/ategories/${this.id}`)
+                const res = await this.$http.get(`rest/categories/${this.id}`)
                 this.model = res.data;
             },
             async fetchParents(){
